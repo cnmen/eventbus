@@ -1,5 +1,5 @@
 ### Hey, Do you really know about EventBus ?
-#### If you not sure, please click here : [Eventbus](https://www.cmonbaby.com/posts/netease_eventbus.html)
+#### If you not sure, please click here : [EventBus](https://www.cmonbaby.com/posts/netease_eventbus.html)
 
 ## EventBus ![Build Status](https://travis-ci.org/greenrobot/EventBus.svg?branch=master)
 
@@ -12,7 +12,7 @@
 
 ## EventBus in 4 steps
 
-#### 1. configuration app/build.gradle:
+#### 1. Configuration app/build.gradle:
 ```gradle
 android {
     // ......
@@ -77,9 +77,8 @@ public class MainActivity extends AppCompatActivity {
         // Do something
     }
 
-    // subscribe sticky method
     @Subscribe(threadMode = ThreadMode.MAIN, sticky = true)
-    public void sticky(UserInfo user) {
+    public void sticky(UserInfo user) { // subscribe sticky method
         Log.e("sticky", user.toString());
     }
 
