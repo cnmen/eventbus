@@ -1,0 +1,2 @@
+include ':app', ':eventbus_annotation', ':eventbus_compiler', ':eventbus_core'
+rootProject.name='eventbus_demo'
