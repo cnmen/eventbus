@@ -101,7 +101,7 @@ public class MainActivity extends AppCompatActivity {
 Via Gradle:
 ```gradle
 implementation 'com.cmonbaby.eventbus.core:eventbus_core:1.0.0'
-implementation 'com.cmonbaby.eventbus.annotation:eventbus_annotation:1.0.0'
+implementation 'com.cmonbaby.eventbus.annotation:annotation:1.0.0'
 annotationProcessor 'com.cmonbaby.eventbus.compiler:eventbus_compiler:1.0.0'
 ```
 
@@ -109,17 +109,17 @@ Via Maven:
 ```xml
 <dependency>
     <groupId>com.cmonbaby.eventbus.annotation</groupId>
-    <artifactId>eventbus_annotation</artifactId>
+    <artifactId>annotation</artifactId>
     <version>1.0.0</version>
 </dependency>
 <dependency>
     <groupId>com.cmonbaby.eventbus.compiler</groupId>
-    <artifactId>eventbus_compiler</artifactId>
+    <artifactId>compiler</artifactId>
     <version>1.0.0</version>
 </dependency>
 <dependency>
     <groupId>com.cmonbaby.eventbus.core</groupId>
-    <artifactId>eventbus_core</artifactId>
+    <artifactId>core</artifactId>
     <version>1.0.0</version>
 </dependency>
 ```
