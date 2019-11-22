@@ -100,9 +100,9 @@ public class MainActivity extends AppCompatActivity {
 
 Via Gradle:
 ```gradle
-implementation 'com.cmonbaby.eventbus.core:eventbus_core:1.0.0'
+implementation 'com.cmonbaby.eventbus.core:core:1.0.0'
 implementation 'com.cmonbaby.eventbus.annotation:annotation:1.0.0'
-annotationProcessor 'com.cmonbaby.eventbus.compiler:eventbus_compiler:1.0.0'
+annotationProcessor 'com.cmonbaby.eventbus.compiler:compiler:1.0.0'
 ```
 
 Via Maven:
