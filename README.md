@@ -46,7 +46,7 @@ EventBus.getDefault().post(new UserInfo("simon", 35));
 EventBus.getDefault().postSticky(new UserInfo("simon", 35));
 ```
 
-#### 4. About Parameters
+#### 4. About Coding
 ```java
 public class MainActivity extends AppCompatActivity {
 
