@@ -95,14 +95,14 @@ public class MainActivity extends AppCompatActivity {
 ```
 
 ## Add EventBus to your project
-<a href="https://www.cmonbaby.com/posts/netease_modular.html">
+<a href="https://www.cmonbaby.com/posts/netease_eventbus.html">
 <img src="https://img.shields.io/bintray/v/cmonbaby/simon/eventbus_annotation?label=maven-central"></a>
 
 Via Gradle:
 ```gradle
-implementation 'com.cmonbaby.eventbus.core:core:1.0.0'
-implementation 'com.cmonbaby.eventbus.annotation:annotation:1.0.0'
-annotationProcessor 'com.cmonbaby.eventbus.compiler:compiler:1.0.0'
+implementation 'com.cmonbaby.eventbus.core:core:1.1.0'
+implementation 'com.cmonbaby.eventbus.annotation:annotation:1.1.0'
+annotationProcessor 'com.cmonbaby.eventbus.compiler:compiler:1.1.0'
 ```
 
 Via Maven:
@@ -110,17 +110,17 @@ Via Maven:
 <dependency>
     <groupId>com.cmonbaby.eventbus.annotation</groupId>
     <artifactId>annotation</artifactId>
-    <version>1.0.0</version>
+    <version>1.1.0</version>
 </dependency>
 <dependency>
     <groupId>com.cmonbaby.eventbus.compiler</groupId>
     <artifactId>compiler</artifactId>
-    <version>1.0.0</version>
+    <version>1.1.0</version>
 </dependency>
 <dependency>
     <groupId>com.cmonbaby.eventbus.core</groupId>
     <artifactId>core</artifactId>
-    <version>1.0.0</version>
+    <version>1.1.0</version>
 </dependency>
 ```
 
