@@ -17,10 +17,6 @@ allprojects {
     repositories {
         google()
         jcenter()
-        maven { // 上传JCenter未发布时测试地址：
-            // https://dl.bintray.com/cmonbaby/simon/com/cmonbaby/eventbus/annotation/eventbus_annotation/1.0.0/
-            url 'https://dl.bintray.com/cmonbaby/simon/'
-        }
     }
 }
 
